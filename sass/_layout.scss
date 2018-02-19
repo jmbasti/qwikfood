@@ -1,0 +1,35 @@
+/*---------------------------------------------------*/
+/*BASIC SETUP*/
+/*---------------------------------------------------*/
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+  
+html, body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden; 
+    text-align: justify;
+}
+  
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
